@@ -1,4 +1,5 @@
-<project name="JPetStore" default="all" basedir=".">
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="JPetStore" default="all" basedir="." xmlns:sonar="antlib:org.sonar.ant">
 
   <property name="web" value="web"/>
   <property name="src" value="src"/>
