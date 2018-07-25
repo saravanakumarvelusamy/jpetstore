@@ -27,6 +27,7 @@
   <property name="sonar.projectName" value="JPetStore"/>
   <property name="sonar.projectVersion" value="1.0"/>
   <property name="sonar.sources" value="src"/>
+  <property name="sonar.language" value="java"/>
 
   <path id="classpath">
     <pathelement location="${instrumentedclasses}"/>
@@ -167,7 +168,7 @@
   </target>
   
   <target name="sonar" depends="compile">
-		<taskdef uri="antlib:org.sonar.ant" resource="lib/sonarqube-ant-task-*.jar">
+		<taskdef uri="antlib:org.sonar.ant" resource="lib/sonar-ant-task-*.jar">
 			<!-- Update the following line, or put the "sonar-ant-task-*.jar" file in your "$HOME/.ant/lib" folder -->
 			<classpath path="lib/sonar-ant-task-*.jar" />
 		</taskdef>
