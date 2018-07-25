@@ -162,7 +162,7 @@
   </target>
   
   <target name="sonar" depends="compile">
-		<taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+		<taskdef uri="antlib:org.sonar.ant" resource="lib/sonarqube-ant-task-*.jar">
 			<!-- Update the following line, or put the "sonar-ant-task-*.jar" file in your "$HOME/.ant/lib" folder -->
 			<classpath path="lib/sonarqube-ant-task-*.jar" />
 		</taskdef>
