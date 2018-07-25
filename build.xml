@@ -22,6 +22,11 @@
   <property name="classes" value="${work}/classes/"/>
   <property name="testclasses" value="${work}/testclasses/"/>
   <property name="instrumentedclasses" value="${work}/instrumentedclasses/"/>
+	
+  <property name="sonar.projectKey" value="JPetStore"/>
+  <property name="sonar.projectName" value="JPetStore"/>
+  <property name="sonar.projectVersion" value="1.0"/>
+  <property name="sonar.sources" value="src"/>
 
   <path id="classpath">
     <pathelement location="${instrumentedclasses}"/>
